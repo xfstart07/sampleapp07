@@ -123,69 +123,25 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "spec/requests/static_pages_spec.rb",
-			"settings":
-			{
-				"buffer_size": 1510,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/static_pages/home.html.erb",
-			"settings":
-			{
-				"buffer_size": 437,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/static_pages/about.html.erb",
-			"settings":
-			{
-				"buffer_size": 450,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/static_pages/help.html.erb",
-			"settings":
-			{
-				"buffer_size": 420,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/layouts/application.html.erb",
-			"settings":
-			{
-				"buffer_size": 283,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "config/routes.rb",
-			"settings":
-			{
-				"buffer_size": 1903,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/static_pages/contact.html.erb",
-			"settings":
-			{
-				"buffer_size": 437,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 312.0,
+		"height": 137.0,
 		"selected_items":
 		[
+			[
+				"gitch",
+				"Git: Change Branch"
+			],
+			[
+				"git new",
+				"Git: New Branch"
+			],
+			[
+				"git b",
+				"Git: Change Branch"
+			],
 			[
 				"list",
 				"Package Control: List Packages"
@@ -356,8 +312,16 @@
 	},
 	"file_history":
 	[
-		"/home/yifei/git/rails_projects/sample_app/app/controllers/static_pages_controller.rb",
+		"/home/yifei/git/rails_projects/sample_app/app/views/static_pages/home.html.erb",
+		"/home/yifei/git/rails_projects/sample_app/app/views/layouts/application.html.erb",
+		"/home/yifei/git/rails_projects/sample_app/app/views/static_pages/contact.html.erb",
 		"/home/yifei/git/rails_projects/sample_app/config/routes.rb",
+		"/home/yifei/git/rails_projects/sample_app/app/views/static_pages/help.html.erb",
+		"/home/yifei/git/rails_projects/sample_app/app/helpers/application_helper.rb",
+		"/home/yifei/git/rails_projects/sample_app/config/application.rb",
+		"/home/yifei/git/rails_projects/sample_app/app/views/static_pages/about.html.erb",
+		"/home/yifei/git/rails_projects/sample_app/spec/requests/static_pages_spec.rb",
+		"/home/yifei/git/rails_projects/sample_app/app/controllers/static_pages_controller.rb",
 		"/home/yifei/git/rails_projects/sample_app/spec/spec_helper.rb",
 		"/home/yifei/git/rails_projects/sample_app/public/index.html",
 		"/home/yifei/git/rails_projects/sample_app/public/hello.html",
@@ -387,7 +351,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 103.0,
+		"height": 0.0,
 		"where_history":
 		[
 			"<project>"
@@ -439,207 +403,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "spec/requests/static_pages_spec.rb",
-					"settings":
-					{
-						"buffer_size": 1510,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								250,
-								250
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "ASCII",
-							"sorttabs_lastactivated": 1359536599.5,
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 61.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/views/static_pages/home.html.erb",
-					"settings":
-					{
-						"buffer_size": 437,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								422,
-								422
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "ASCII",
-							"sorttabs_lastactivated": 1359530379.3,
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/views/static_pages/about.html.erb",
-					"settings":
-					{
-						"buffer_size": 450,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								450,
-								450
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "ASCII",
-							"sorttabs_lastactivated": 1359532636.76,
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/views/static_pages/help.html.erb",
-					"settings":
-					{
-						"buffer_size": 420,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								233,
-								233
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "ASCII",
-							"sorttabs_lastactivated": 1359528816.18,
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "app/views/layouts/application.html.erb",
-					"settings":
-					{
-						"buffer_size": 283,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								103,
-								103
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "ASCII",
-							"sorttabs_lastactivated": 1359528931.19,
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "config/routes.rb",
-					"settings":
-					{
-						"buffer_size": 1903,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								147,
-								147
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "ASCII",
-							"sorttabs_lastactivated": 1359530216.14,
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "app/views/static_pages/contact.html.erb",
-					"settings":
-					{
-						"buffer_size": 437,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								151,
-								151
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "ASCII",
-							"sorttabs_lastactivated": 1359532588.64,
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -689,6 +454,26 @@
 		"selected_items":
 		[
 			[
+				"home",
+				"app/views/static_pages/home.html.erb"
+			],
+			[
+				"apphtml",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"apphel",
+				"app/helpers/application_helper.rb"
+			],
+			[
+				"applicationhtml",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"appli",
+				"config/application.rb"
+			],
+			[
 				"contact",
 				"app/views/static_pages/contact.html.erb"
 			],
@@ -709,16 +494,8 @@
 				"app/views/layouts/application.html.erb"
 			],
 			[
-				"apphtml",
-				"app/views/layouts/application.html.erb"
-			],
-			[
 				"abu",
 				"app/views/static_pages/about.html.erb"
-			],
-			[
-				"home",
-				"app/views/static_pages/home.html.erb"
 			],
 			[
 				"staticspec",
@@ -807,6 +584,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 255.0,
+	"side_bar_width": 259.0,
 	"status_bar_visible": true
 }
