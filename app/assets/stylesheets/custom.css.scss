@@ -36,7 +36,7 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: #999;
+  color: $grayLight;
 }
 
 p {
@@ -46,21 +46,22 @@ p {
 
 /* header */
 
+$logoColor: #555;
 #logo {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
-  color: #000;
+  color: $logoColor;
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
   line-height: 1;
-}
-
-#logo:hover {
-  color: #000;
-  text-decoration: none;
+  
+  &:hover { /* sass 语法 */
+    color: $logoColor;
+    text-decoration: none;
+  }
 }
 
 /* footer */
@@ -68,25 +69,25 @@ footer {
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
-  color: #999;
-}
-
-footer a {
-  color: #222;
-}
-
-footer a:hover {
-  color: #222;
-}
-footer small {
-  float: left;
-  margin-left: 10px;
-}
-footer ul {
-  float: right;
-  list-style: none;
-}
-footer ul li {
-  float: left;
-  margin-right: 10px;
+  color: $grayLight;
+  
+  a {
+    color: #222;
+    &:hover {
+      color: #222;
+    }
+  }
+  
+  small {
+    float: left;
+  }
+  
+  ul {
+    float: right;
+    list-style: none;
+    li {
+      float: left;
+      margin-left: 10px;
+    }
+  }
 }
