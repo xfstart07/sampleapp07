@@ -22,8 +22,6 @@ describe "StaticPages" do
       visit root_path
     }
     
-    subject { page }
-    
     it { 
       should have_selector('h1', text: 'Welcome to the Sample App')
     }
