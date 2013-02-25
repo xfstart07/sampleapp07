@@ -123,13 +123,41 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/controllers/users_controller.rb",
+			"settings":
+			{
+				"buffer_size": 66,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/user.rb",
+			"settings":
+			{
+				"buffer_size": 781,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "spec/models/user_spec.rb",
+			"settings":
+			{
+				"buffer_size": 1842,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 137.0,
+		"height": 375.0,
 		"selected_items":
 		[
+			[
+				"gist",
+				"Gist: Create Public Gist"
+			],
 			[
 				"input",
 				"InputHelper"
@@ -193,10 +221,6 @@
 			[
 				"bro",
 				"Preferences: Browse Packages"
-			],
-			[
-				"gist",
-				"Gist: Create Private Gist"
 			],
 			[
 				"remov",
@@ -299,11 +323,11 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 786.0
+		"width": 774.0
 	},
 	"console":
 	{
-		"height": 0.0
+		"height": 161.0
 	},
 	"distraction_free":
 	{
@@ -316,17 +340,28 @@
 	},
 	"file_history":
 	[
+		"/home/yifei/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/yifei/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/yifei/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/yifei/git/rails_projects/sample_app/db/migrate/20130225073728_add_password_digest_to_users.rb",
+		"/home/yifei/git/rails_projects/sample_app/spec/requests/user_pages_spec.rb",
+		"/home/yifei/git/rails_projects/sample_app/db/schema.rb",
+		"/home/yifei/git/rails_projects/sample_app/db/migrate/20130225070522_add_index_to_users_email.rb",
+		"/home/yifei/git/rails_projects/sample_app/spec/models/user_spec.rb",
+		"/home/yifei/git/rails_projects/sample_app/app/models/user.rb",
+		"/home/yifei/git/rails_projects/sample_app/app/views/static_pages/home.html.erb",
+		"/home/yifei/git/rails_projects/sample_app/spec/requests/static_pages_spec.rb",
+		"/home/yifei/git/rails_projects/sample_app/config/routes.rb",
+		"/home/yifei/git/rails_projects/sample_app/app/views/users/new.html.erb",
+		"/opt/lampp/phpmyadmin/config.inc.php",
 		"/home/yifei/git/rails_projects/sample_app/app/views/static_pages/about.html.erb",
 		"/home/yifei/git/rails_projects/sample_app/app/assets/stylesheets/custom.css.scss",
 		"/home/yifei/git/rails_projects/sample_app/app/views/layouts/application.html.erb",
-		"/home/yifei/git/rails_projects/sample_app/spec/requests/static_pages_spec.rb",
 		"/home/yifei/git/rails_projects/sample_app/app/helpers/application_helper.rb",
 		"/home/yifei/git/rails_projects/sample_app/app/helpers/static_pages_helper.rb",
-		"/home/yifei/git/rails_projects/sample_app/app/views/static_pages/home.html.erb",
 		"/home/yifei/git/rails_projects/sample_app/spec/support/utilities.rb",
 		"/home/yifei/git/rails_projects/sample_app/app/views/static_pages/help.html.erb",
 		"/home/yifei/git/rails_projects/sample_app/app/views/static_pages/contact.html.erb",
-		"/home/yifei/git/rails_projects/sample_app/config/routes.rb",
 		"/home/yifei/git/rails_projects/sample_app/app/views/layouts/_footer.html.erb",
 		"/home/yifei/git/rails_projects/sample_app/app/views/layouts/_header.html.erb",
 		"/home/yifei/git/rails_projects/sample_app/app/controllers/static_pages_controller.rb",
@@ -414,8 +449,99 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/controllers/users_controller.rb",
+					"settings":
+					{
+						"buffer_size": 66,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								61,
+								61
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"sorttabs_lastactivated": 1361780969.66,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/models/user.rb",
+					"settings":
+					{
+						"buffer_size": 781,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								342,
+								342
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"sorttabs_lastactivated": 1361781205.19,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"wrap_width": 0
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "spec/models/user_spec.rb",
+					"settings":
+					{
+						"buffer_size": 1842,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								752,
+								752
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"sorttabs_lastactivated": 1361781042.72,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"wrap_width": 0
+						},
+						"translation.x": 0.0,
+						"translation.y": 520.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -465,8 +591,60 @@
 		"selected_items":
 		[
 			[
+				"user",
+				"app/models/user.rb"
+			],
+			[
+				"userspec",
+				"spec/models/user_spec.rb"
+			],
+			[
+				"usersp",
+				"spec/requests/user_pages_spec.rb"
+			],
+			[
+				"u",
+				"app/models/user.rb"
+			],
+			[
+				"sch",
+				"db/schema.rb"
+			],
+			[
+				"addpass",
+				"db/migrate/20130225073728_add_password_digest_to_users.rb"
+			],
+			[
+				"schema",
+				"db/schema.rb"
+			],
+			[
+				"add",
+				"db/migrate/20130225070522_add_index_to_users_email.rb"
+			],
+			[
+				"userspe",
+				"spec/models/user_spec.rb"
+			],
+			[
+				"use",
+				"app/models/user.rb"
+			],
+			[
+				"ro",
+				"config/routes.rb"
+			],
+			[
+				"homeh",
+				"app/views/static_pages/home.html.erb"
+			],
+			[
 				"rou",
 				"config/routes.rb"
+			],
+			[
+				"new",
+				"app/views/users/new.html.erb"
 			],
 			[
 				"sta",
@@ -545,10 +723,6 @@
 				"app/models/micropost.rb"
 			],
 			[
-				"use",
-				"app/models/user.rb"
-			],
-			[
 				"",
 				"app/models/micropost.rb"
 			],
@@ -559,10 +733,6 @@
 			[
 				"res",
 				"config/routes.rb"
-			],
-			[
-				"user",
-				"app/models/user.rb"
 			],
 			[
 				"remote",
@@ -611,6 +781,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 51.0,
+	"side_bar_width": 50.0,
 	"status_bar_visible": true
 }

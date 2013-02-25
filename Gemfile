@@ -4,10 +4,12 @@ gem 'rails', '3.2.11'
 gem 'bootstrap-sass'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
+gem 'bcrypt-ruby', '3.0.1'
 
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails'
+  gem 'annotate', '~> 2.5.0'
 end
 
 
