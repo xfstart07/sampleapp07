@@ -14,6 +14,16 @@ class User < ActiveRecord::Base
   has_secure_password
   has_many :microposts, dependent: :destroy
 
+  has_many :relationships, foreign_key: "follower_id",
+                           class_name: "Relationship",
+                           dependent: :destroy
+  has_many :followed_users, through: :relationships, source: :followed
+
+  has_many :reverse_relationships, foreign_key: "followed_id",
+                                   class_name: "Relationship",
+                                   dependent: :destroy
+  has_many :followers, through: :reverse_relationships, source: :follower
+
   before_save { |user|
     user.email = email.downcase
   }
@@ -27,7 +37,21 @@ class User < ActiveRecord::Base
   validates :password_confirmation, presence: true
 
   def feed
-    Micropost.where("user_id = ?", id)
+    Micropost.form_users_followed_by(self)
+  end
+
+  # relationships 对象的使用不懂?
+  def following?(other_user)
+    relationships.find_by_followed_id(other_user.id)
+  end
+
+  # followed_id: other_user.id 这种形式不懂?
+  def follow!(other_user)
+    relationships.create!(followed_id: other_user.id)
+  end
+
+  def unfollow!(other_user)
+    relationships.find_by_followed_id(other_user.id).destroy
   end
 
   private
