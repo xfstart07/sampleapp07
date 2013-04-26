@@ -6,6 +6,7 @@ namespace :db do
     make_relationships
   end
 
+  # 建立user测试数据
   def make_users
     admin = User.create!(name: "Example User",
                  email: "example@railstutorial.org",
